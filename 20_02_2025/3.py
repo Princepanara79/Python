@@ -1,0 +1,10 @@
+s1 = set()
+while len(s1)<5:
+    a = input("enter the name:")
+    s1.add(a)
+s1.discard(input("enter name you want to delete:"))
+s1.add(input("enter the name you want to add:")
+print(s1)
+s1.pop()
+s1.pop()
+print(s1)
